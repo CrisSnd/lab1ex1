@@ -23,9 +23,9 @@ namespace MyApp
             Console.WriteLine("Introduceti inaltimea paralelipipedului dreptunghic:");
             inaltime = int.Parse(Console.ReadLine());
 
-            int volumparalelipipeddrept = latura1ArieBaza * latura2ArieBaza * inaltime;
+            int volumParalelipipedDrept = latura1ArieBaza * latura2ArieBaza * inaltime;
 
-            Console.WriteLine("Volumul paralelipipedului dreptunghic este "  +  volumparalelipipeddrept + ".");
+            Console.WriteLine("Volumul paralelipipedului dreptunghic este "  +  volumParalelipipedDrept + ".");
         }
     }
 }
